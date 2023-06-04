@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body{
+    background-color: cadetblue;
+}
+
+.all{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+     min-height: 100vh;
+     grid-template-columns: repeat(4,100px);
+     grid-template-rows: minmax(100px,200px) repeat(6 ,100px);
+}
+.all>button{
+    cursor: pointer;
+font-size: 2rem;
+border: 1px solid rgb(0,0,0,.8);
+background-color:rgb(104, 134, 160);
+outline: 0;
+}
+.all>button:hover{
+    background-color: azure;
+}
+.clearAll_button{
+ grid-column: span 2;
+}
+.equal{
+    grid-column: span 2;
+   font-size: 4rem !important;
+   background-color: blue !important;
+}
+.display{
+    border: 1px solid rgb(133, 26, 26); 
+    color: aliceblue;
+    background-color: rgb(3, 0, 0,.75);
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+   align-items: flex-end;
+   justify-content: space-around;
+   padding: 10px;
+   word-wrap: break-word;
+   word-break: break-all;
+}
+.cur{
+    font-size: 2rem;
+}
+.prev{
+    font-size: 1.2rem;
+    color: rgb(45, 196, 45);
+}
