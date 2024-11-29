@@ -1,1 +1,3 @@
-# Calculator-with-OOP-in-JavaScript
+# Standard Calculator-with-OOP-in-JavaScript
+
+
